@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-52 "http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-52="http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#">
+    <Ontology rdf:about="http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#animal -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;animal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#candy -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;candy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#car -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;car">
+        <rdfs:range rdf:resource="&untitled-ontology-52;business"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-52;machine"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#chocolate -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;chocolate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#company -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#country -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#fruit -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;fruit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#hotel -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;hotel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#month -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;month"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#person -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;person">
+        <rdfs:domain rdf:resource="&untitled-ontology-52;humen"/>
+        <rdfs:range rdf:resource="&untitled-ontology-52;source"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#phone -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;phone">
+        <rdfs:range rdf:resource="&untitled-ontology-52;business"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-52;machine"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#planet -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;planet">
+        <rdfs:domain rdf:resource="&untitled-ontology-52;enviroment"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#registered_trademark -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;registered_trademark"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#sport -->
+
+    <ObjectProperty rdf:about="&untitled-ontology-52;sport"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#africa -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;africa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#asia -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;asia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#athletics -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;athletics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#calori_hight -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;calori_hight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#calori_low -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;calori_low"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#color -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;color"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#endof -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;endof"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#female -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;female"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#gamer -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;gamer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#ingalaxy -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;ingalaxy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#kindof -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;kindof"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#male -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;male"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#model -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#nonready -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;nonready"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#outgalaxy -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;outgalaxy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#plase -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;plase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#ready -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;ready"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#room -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;room"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#specify -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;specify"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#startof -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;startof"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#suite -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;suite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#tamest -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;tamest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#wild -->
+
+    <DatatypeProperty rdf:about="&untitled-ontology-52;wild"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#animal -->
+
+    <Class rdf:about="&untitled-ontology-52;animal">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#business -->
+
+    <Class rdf:about="&untitled-ontology-52;business">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;source"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#candy -->
+
+    <Class rdf:about="&untitled-ontology-52;candy">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#car -->
+
+    <Class rdf:about="&untitled-ontology-52;car">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;machine"/>
+        <disjointWith rdf:resource="&untitled-ontology-52;phone"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#chocolate -->
+
+    <Class rdf:about="&untitled-ontology-52;chocolate">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#company -->
+
+    <Class rdf:about="&untitled-ontology-52;company">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;business"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#country -->
+
+    <Class rdf:about="&untitled-ontology-52;country">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#enviroment -->
+
+    <Class rdf:about="&untitled-ontology-52;enviroment">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;source"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#fruit -->
+
+    <Class rdf:about="&untitled-ontology-52;fruit">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#hotel -->
+
+    <Class rdf:about="&untitled-ontology-52;hotel">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;business"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#humen -->
+
+    <Class rdf:about="&untitled-ontology-52;humen">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;source"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#machine -->
+
+    <Class rdf:about="&untitled-ontology-52;machine">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;source"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#month -->
+
+    <Class rdf:about="&untitled-ontology-52;month">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#person -->
+
+    <Class rdf:about="&untitled-ontology-52;person">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;humen"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#phone -->
+
+    <Class rdf:about="&untitled-ontology-52;phone">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;machine"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#planet -->
+
+    <Class rdf:about="&untitled-ontology-52;planet">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;enviroment"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#registered_trademark -->
+
+    <Class rdf:about="&untitled-ontology-52;registered_trademark">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;business"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#source -->
+
+    <Class rdf:about="&untitled-ontology-52;source"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#sport -->
+
+    <Class rdf:about="&untitled-ontology-52;sport">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-52;business"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#apple -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;apple">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <untitled-ontology-52:calori_hight rdf:datatype="&xsd;integer">100</untitled-ontology-52:calori_hight>
+        <untitled-ontology-52:color rdf:datatype="&xsd;string">red , green ,yello</untitled-ontology-52:color>
+        <untitled-ontology-52:fruit rdf:resource="&untitled-ontology-52;apple"/>
+        <untitled-ontology-52:company rdf:resource="&untitled-ontology-52;apple"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#city -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;city">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <untitled-ontology-52:kindof rdf:datatype="&xsd;string">clothes</untitled-ontology-52:kindof>
+        <untitled-ontology-52:asia rdf:datatype="&xsd;string">saudi ariba</untitled-ontology-52:asia>
+        <untitled-ontology-52:registered_trademark rdf:resource="&untitled-ontology-52;city"/>
+        <untitled-ontology-52:country rdf:resource="&untitled-ontology-52;city"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#dove -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;dove">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <untitled-ontology-52:kindof rdf:datatype="&xsd;string">soap</untitled-ontology-52:kindof>
+        <untitled-ontology-52:wild rdf:datatype="&xsd;string">tiger</untitled-ontology-52:wild>
+        <untitled-ontology-52:animal rdf:resource="&untitled-ontology-52;dove"/>
+        <untitled-ontology-52:registered_trademark rdf:resource="&untitled-ontology-52;dove"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#galaxy -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;galaxy">
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;machine"/>
+        <untitled-ontology-52:model rdf:datatype="&xsd;integer">701</untitled-ontology-52:model>
+        <untitled-ontology-52:nonready rdf:datatype="&xsd;string">bawder</untitled-ontology-52:nonready>
+        <untitled-ontology-52:phone rdf:resource="&untitled-ontology-52;galaxy"/>
+        <untitled-ontology-52:chocolate rdf:resource="&untitled-ontology-52;galaxy"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#helton -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;helton">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;humen"/>
+        <untitled-ontology-52:suite rdf:datatype="&xsd;integer">5000$</untitled-ontology-52:suite>
+        <untitled-ontology-52:female rdf:datatype="&xsd;string">mis helton</untitled-ontology-52:female>
+        <untitled-ontology-52:hotel rdf:resource="&untitled-ontology-52;helton"/>
+        <untitled-ontology-52:person rdf:resource="&untitled-ontology-52;helton"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#jaguar -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;jaguar">
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;machine"/>
+        <untitled-ontology-52:model rdf:datatype="&xsd;integer">2016</untitled-ontology-52:model>
+        <untitled-ontology-52:wild rdf:datatype="&xsd;string">tiger</untitled-ontology-52:wild>
+        <untitled-ontology-52:animal rdf:resource="&untitled-ontology-52;jaguar"/>
+        <untitled-ontology-52:car rdf:resource="&untitled-ontology-52;jaguar"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#mars -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;mars">
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <untitled-ontology-52:startof rdf:datatype="&xsd;integer">1</untitled-ontology-52:startof>
+        <untitled-ontology-52:ingalaxy rdf:datatype="&xsd;string">milky way</untitled-ontology-52:ingalaxy>
+        <untitled-ontology-52:month rdf:resource="&untitled-ontology-52;mars"/>
+        <untitled-ontology-52:planet rdf:resource="&untitled-ontology-52;mars"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#polo -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;polo">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <untitled-ontology-52:gamer rdf:datatype="&xsd;integer">2</untitled-ontology-52:gamer>
+        <untitled-ontology-52:kindof rdf:datatype="&xsd;string">shose</untitled-ontology-52:kindof>
+        <untitled-ontology-52:registered_trademark rdf:resource="&untitled-ontology-52;polo"/>
+        <untitled-ontology-52:sport rdf:resource="&untitled-ontology-52;polo"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#puma -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;puma">
+        <rdf:type rdf:resource="&untitled-ontology-52;business"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <untitled-ontology-52:wild rdf:datatype="&xsd;integer">10-15 years</untitled-ontology-52:wild>
+        <untitled-ontology-52:model rdf:datatype="&xsd;integer">6076</untitled-ontology-52:model>
+        <untitled-ontology-52:animal rdf:resource="&untitled-ontology-52;puma"/>
+        <untitled-ontology-52:registered_trademark rdf:resource="&untitled-ontology-52;puma"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tomy/ontologies/2016/2/untitled-ontology-52#ulcer -->
+
+    <NamedIndividual rdf:about="&untitled-ontology-52;ulcer">
+        <rdf:type rdf:resource="&untitled-ontology-52;enviroment"/>
+        <rdf:type rdf:resource="&untitled-ontology-52;humen"/>
+        <untitled-ontology-52:ready rdf:datatype="&xsd;string">twexi</untitled-ontology-52:ready>
+        <untitled-ontology-52:male rdf:datatype="&xsd;string">ulcer jemes</untitled-ontology-52:male>
+        <untitled-ontology-52:candy rdf:resource="&untitled-ontology-52;ulcer"/>
+        <untitled-ontology-52:person rdf:resource="&untitled-ontology-52;ulcer"/>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&untitled-ontology-52;company"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;hotel"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;registered_trademark"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;sport"/>
+        </members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&untitled-ontology-52;animal"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;candy"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;chocolate"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;country"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;fruit"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;month"/>
+            <rdf:Description rdf:about="&untitled-ontology-52;planet"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
